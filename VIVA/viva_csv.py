@@ -43,5 +43,5 @@ def create_csv(data_dir, csv_path):
                                  annotation[2][0], annotation[2][1],
                                  annotation[0]])
 
-create_csv('/media/appsyoon/New Volume/Machine Learning/detectiondata/train/', './train_data.csv')
-create_csv('/media/appsyoon/New Volume/Machine Learning/detectiondata/test/', './test_data.csv')
+create_csv('../../datasets/detectiondata/train/', './train_data.csv')
+create_csv('../../datasets/detectiondata/test/', './test_data.csv')
